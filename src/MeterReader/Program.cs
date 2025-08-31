@@ -1,3 +1,4 @@
+using MeterReader.Services;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,6 +69,7 @@ static void SetupMiddleware(WebApplication webApp)
 
   webApp.MapRazorPages();
 
+  webApp.MapGrpcService<MeterReadingService>();
 }
 
 
@@ -102,4 +104,5 @@ static void RegisterServices(WebApplicationBuilder bldr)
 
   bldr.Services.AddRazorPages();
 
+  bldr.Services.AddGrpc(cfg => cfg.EnableDetailedErrors = true);
 }
