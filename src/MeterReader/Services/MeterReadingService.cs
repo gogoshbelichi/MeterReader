@@ -25,16 +25,18 @@ namespace MeterReader.Services
 
             if (await repository.SaveAllAsync())
             {
+                logger.LogInformation("Successfully Saved new Readings...");
                 return new StatusMessage
                 {
                     Message = "Sucessfully added to DB",
-                    Success = true
+                    Status = ReadingStatus.Success
                 };
             }
+            logger.LogInformation("Failed to Save new Readings...");
             return new StatusMessage
             {
                 Message = "Failed to store readings in DB",
-                Success = false
+                Status = ReadingStatus.Failure
             };
 
         }
