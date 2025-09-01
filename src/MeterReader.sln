@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingClient", "MeterReadingClient\MeterReadingClient.csproj", "{07A3B155-94CC-43A0-8A20-1506272389F2}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MeterReaderPython", "MeterReaderPython\MeterReaderPython.pyproj", "{8AF5BA65-F81E-42F7-9BFF-419D8DCE8692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,8 @@ Global
 		{07A3B155-94CC-43A0-8A20-1506272389F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A3B155-94CC-43A0-8A20-1506272389F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A3B155-94CC-43A0-8A20-1506272389F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF5BA65-F81E-42F7-9BFF-419D8DCE8692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF5BA65-F81E-42F7-9BFF-419D8DCE8692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +48,7 @@ Global
 		{555A439F-C31B-4B8B-B7B4-3D249AE78DC5} = {3354F1FC-F5ED-4575-968E-00EDC820E357}
 		{D7F44834-1CD6-46D3-AE27-139D34CD2296} = {3354F1FC-F5ED-4575-968E-00EDC820E357}
 		{07A3B155-94CC-43A0-8A20-1506272389F2} = {556BF8F4-270F-4B9C-BCE9-A8F78D4889BE}
+		{8AF5BA65-F81E-42F7-9BFF-419D8DCE8692} = {556BF8F4-270F-4B9C-BCE9-A8F78D4889BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75381036-B329-40BB-8569-3CEF1FEFCF88}
